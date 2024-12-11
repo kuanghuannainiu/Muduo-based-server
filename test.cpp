@@ -78,10 +78,6 @@ private:
     EventLoop *m_loop;
 };
 
-void fun(){
-    std::cout << "fun函數" << "\n";
-}
-
 int main(void){
     EventLoop loop;                       //epoll
     InetAddress addr("127.0.0.1", 5000);   //網絡地址
